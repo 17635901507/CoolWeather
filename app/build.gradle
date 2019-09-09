@@ -17,7 +17,7 @@ android {
     }
     sourceSets {
         main {
-            java.srcDirs = ['src/mvpframework/java','src/main/java']
+            java.srcDirs = ['src/mvpframework/java', 'src/main/java']
             res.srcDirs = ['src/main/res', 'src/mvpframework/res']
         }
     }
@@ -42,8 +42,6 @@ dependencies {
     implementation deps.supportX.design
     implementation deps.supportX.banner
     implementation deps.supportX.glide
-    implementation deps.supportX.butterknife
-    annotationProcessor deps.supportX.butterknife_compiler
     implementation deps.supportX.constraint
     implementation 'com.android.support:support-v4:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
